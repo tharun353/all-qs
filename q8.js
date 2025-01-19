@@ -8,4 +8,4 @@ else if(mark>=70)
 else if(mark>=60)
     console.log("Your grade is D")
 else
-    console.log("Your grade is F    ")
+    console.log("Your grade is F")
