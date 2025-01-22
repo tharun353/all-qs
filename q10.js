@@ -1,19 +1,19 @@
-function factorial(n) {
-    let result = 1;
-    let i = n;
-    while (i > 1) {
-        result *= i;
-        i--;
+function factorial(number) {
+    if (number < 0) {
+      return "Factorial not defined for negative numbers.";
     }
+    
+    let result = 1;
+    let i = number;
+  
+    while (i > 0) {
+      result *= i;
+      i--;
+    }
+  
     return result;
-}
+  }
+  
 
-// Get user input
-let userInput = prompt("Enter a number to calculate its factorial:");
-let number = parseInt(userInput);
-
-if (isNaN(number) || number < 0) {
-    console.log("Please enter a valid non-negative number.");
-} else {
-    console.log(The factorial of ${number} is ${factorial(number)});
-}
+  let num = 5; 
+  console.log(`The factorial of ${num} is ${factorial(num)}`);
