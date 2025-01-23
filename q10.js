@@ -16,4 +16,7 @@ function factorial(number) {
   
 
   let num = 5; 
+<<<<<<< HEAD
   console.log(`The factorial of ${num} is ${factorial(num)}`);
+
+  console.log(`The factorial of ${num} is ${factorial(num)}`)
